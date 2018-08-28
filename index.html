@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/wl.css"/>
+		<script src="js/jquery.min.js"></script>
+		<title></title>
+	</head>
+	<body style="background-color: lavender;">
+		<div class="body-container" >
+		<div class="container select-box-container" id="containerDiv">
+		 	<div id="titleX" style=" height: 20px; margin-left: 42px; padding-bottom: 0px;"></div>
+    		</div>
+    		<div class="modal fade in" id="noticeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    				<div class="modal-dialog" id = "noticeSubModal">
+        				<div class="modal-content" style="box-shadow: none; border: 0px; padding: 0%;">
+            				<div class="modal-header" id ="noticeModal-header">
+                				<button type="button" id ="notice-closeInfoBtn" class="close" data-dismiss="modal" aria-hidden="true">
+                    				&times;
+                				</button>
+                				<h4 class="modal-title" id="noticeModallLabel" style="color: #37717B;">
+                    				绑定
+                				</h4>
+            				</div>
+            				<div class="modal-body" id = "noticeModal-body">
+                				<div id="noticeImgDiv">
+                					<img src="img/removeIcon.png"/>
+                					<label id="notceTextLabel">是否确定位置</label>
+<!--                					<label id="notceDetialTextLabel">移除库位，不会对真实库位有损害</label>-->
+                				</div>
+            				</div>
+            				<div class="modal-footer" id="noticeModalFooter">
+                				<button type="button" class="btn btn-primary col-lg-3 col-md-3" id = 'updatenoticeBtn' data-dismiss="modal">
+                    				确认并返回
+                				</button>
+                				<button type="button" class="btn btn-primary col-lg-3 col-md-3" id = 'cancelnoticeBtn' data-dismiss="modal">
+                    				取消
+                				</button>
+            				</div>
+        				</div>
+    				</div>
+			</div>
+	</body>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+</html>
